@@ -1,0 +1,59 @@
+body {
+    background: #202020;
+}
+
+h1,h2,h4{
+    color: #fff;
+}
+
+button {
+    padding: 0.75rem;
+    background: none;
+    color: white;
+}
+
+button:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.game button {
+    margin: 1rem;
+}
+
+.scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scores h4 {
+    padding: 0.5rem;
+}
+
+#playerScore,#computerScore {
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.result {
+    border: 1px solid white;
+    padding: 1rem;
+    width: 300px;
+    margin: 1rem;
+}

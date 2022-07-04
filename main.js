@@ -1,5 +1,17 @@
+// Query Selector
+const body = document.querySelector('body');
+const rock = document.querySelector('rock');
+const paper = document.querySelector('paper');
+const scissors = document.querySelector('scissors');
+const playerScoreBoard = document.querySelector('#playerScore');
+const computerScoreBoard = document.querySelector('#computerScore');
+const result = document.querySelector('result')
+const reset = document.querySelector('.reset');
+
+// Initialize Score
 let playerScore = 0;
 let computerScore = 0;
+
 
 const computerChoices = ["rock","paper","scissors"]
 function computerPlay(){
@@ -36,18 +48,18 @@ function playRound(playerSelection, computerSelection) {
     }
   }
 
-  function game(){
-    let playerThrow;
-    let count = 0;
-    while(count < 5) {
-        playerThrow = prompt("Enter rock or paper or scissors");
-        playerThrow = playerThrow.toLowerCase();
-        computerThrow = computerPlay();  
+//   function game(){
+//     let playerThrow;
+//     let count = 0;
+//     while(count < 5) {
+//         playerThrow = prompt("Enter rock or paper or scissors");
+//         playerThrow = playerThrow.toLowerCase();
+//         computerThrow = computerPlay();  
 
-        console.log(playRound(playerThrow,computerThrow));
-        console.log("\n");
-        count ++;
-    }    
-  }
+//         console.log(playRound(playerThrow,computerThrow));
+//         console.log("\n");
+//         count ++;
+//     }    
+//   }
 
-  console.log(game());
+//   console.log(game());
