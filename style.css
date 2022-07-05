@@ -10,6 +10,7 @@ button {
     padding: 0.75rem;
     background: none;
     color: white;
+    cursor: pointer;
 }
 
 button:hover {
@@ -49,6 +50,7 @@ button:hover {
     border: 1px solid white;
     padding: 1rem;
     margin: 0.5rem;
+    color: #fff;
 }
 
 .result {
@@ -56,4 +58,10 @@ button:hover {
     padding: 1rem;
     width: 300px;
     margin: 1rem;
+    color: #fff;
+}
+
+.movesLeft {
+    color: #fff;
+    padding: 1rem;
 }
